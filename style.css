@@ -1,0 +1,48 @@
+/* Reset some default styles */
+body,
+h1,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply a background color */
+body {
+  background-color: #f4f4f4;
+  font-family: "Arial", sans-serif;
+  color: #333;
+}
+
+/* Style the header */
+#main-header {
+  background-color: #4caf50;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Style the image container */
+.image-container {
+  text-align: center;
+  margin: 20px;
+}
+
+/* Style the image */
+.image-container {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the content section */
+.content {
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the paragraph */
+.content p {
+  font-size: 1.2em;
+  line-height: 1.6;
+}
